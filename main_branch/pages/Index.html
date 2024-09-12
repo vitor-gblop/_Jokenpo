@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+
+    <link rel="stylesheet" href="../src/css/Index/General.css">
+    <script src="../src/js/class.js"></script>
+</head>
+<body>
+
+    <section>
+        <div id="pc_choice">
+            <span>--- </span>
+            <span id="pc_choice_label" >-------</span>
+            <span> ---</span>
+        </div>
+
+        <div id="versus_label">
+            X
+        </div>
+
+        <div id="player_choice">
+            <button class="choice" id="choice_pedra" onclick="choice_pedra()">O</button>
+            <button class="choice" id="choice_papel" onclick="choice_papel()">[]</button>
+            <button class="choice" id="choice_tesoura" onclick="choice_tesoura()">_V_</button>
+        </div>
+        
+        <div id="play_div">
+            <button id="play_button" onclick="play()">Nova Rodada</button>
+        </div>
+    </section>
+
+    <script src="../src/js/Index.js"></script>
+</body>
+</html>
